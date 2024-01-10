@@ -1,0 +1,39 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: dark light;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    text-align: center;
+    margin: auto;
+    border: 2px solid #343a40;
+}
+
+#scoreboard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#playerForm {
+    margin-bottom: 20px;
+}
+
+#divInfoPlayer{
+    margin-top: 5px;
+}
